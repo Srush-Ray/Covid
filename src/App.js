@@ -15,8 +15,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route path="/Covid/" component={Covid} />
-          <Route path="/" component={Covid} />
+          <Route path="/" component={Covid} exact />
+          <Route path="/Covid/" component={Covid} exact />
         </Switch>
       </BrowserRouter>
       <Covid />
