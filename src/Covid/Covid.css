@@ -4,6 +4,10 @@
   margin-left: auto !important;
   margin-right: auto !important;
 }
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
 .Covid__div {
   text-align: center;
   font-family: "Poppins", sans-serif;
