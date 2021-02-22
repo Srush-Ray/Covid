@@ -19,7 +19,7 @@ function App() {
           <Route path="/Covid/" component={Covid} exact />
         </Switch>
       </BrowserRouter>
-      <Covid />
+      {/* <Covid /> */}
     </div>
   );
 }
